@@ -1,6 +1,6 @@
 # neoneofetch
 Clone this repo into your home directory  
-Rename it to .neoneofetch
+Rename it to .neoneofetch  
 Then append the following lines to ~/.bashrc
 ```
 # aliases for neofetch
