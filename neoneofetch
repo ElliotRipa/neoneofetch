@@ -1,0 +1,13 @@
+#!/bin/bash
+
+array[0]="neofetch --ascii ~/.neoneofetch/aperture.txt --ascii_colors 6 11"
+array[1]="neofetch --ascii cat.txt"
+array[2]="neofetch --ascii ~/.neoneofetch/dragon.txt --ascii_colors 1 7 3"
+array[3]="neofetch --ascii ~/.neoneofetch/lizard.txt"
+array[4]="neofetch --ascii ~/.neoneofetch/nyarch.txt --gap '-250'"
+array[5]="neofetch --ascii ~/.neoneofetch/rust.txt --ascii_colors 1"
+array[6]="neofetch --ascii ~/.neoneofetch/xenia.txt --ascii_colors 9 7 214"
+
+size=${#array[@]}
+index=$(($RANDOM % $size))
+eval ${array[$index]}
