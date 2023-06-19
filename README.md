@@ -1,7 +1,11 @@
 # neoneofetch
 Clone this repo into your home directory  
+
 Rename it to .neoneofetch  
-Then append the following lines to ~/.bashrc
+
+Ensure that you have neofetch installed  
+
+Then append the following lines to ~/.bashrc  
 ```
 # aliases for neofetch
 alias aperturefetch="neofetch --ascii ~/.neoneofetch/aperture.txt --ascii_colors 6 11"
